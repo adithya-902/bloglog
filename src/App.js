@@ -1,19 +1,16 @@
 import React from "react";
+import Navbar from "./components/navbar/Navbar.jsx";
+import Home from "./pages/home/Home";
 import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <div className="navbar">
-        <ul className="menu-items">
-          <li className="logo">logo</li>
-          <li className="About">About</li>
-          <li className="Blog">Services</li>
-          <li className="Contact">Contact</li>
-        </ul>
+    <>
+      <div>
+        <Navbar />
+        <Home />
       </div>
-    </div>
+    </>
   );
 };
-
 export default App;

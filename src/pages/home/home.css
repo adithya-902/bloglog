@@ -1,0 +1,14 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(1, 42, 58) 100.2%
+  );
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
