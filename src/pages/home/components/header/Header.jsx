@@ -1,16 +1,15 @@
 import React from "react";
 import "./header.css";
+import Tilt from "react-parallax-tilt";
 
 const Header = () => {
   return (
     <>
-      <div className="title">
-        <div className="header">
-          <span className="braces">
-            {"{"}..{"}"}
-          </span>
-          dev.logs
-        </div>
+      <div className="header">
+        <span className="braces">
+          {"{"}..{"}"}
+        </span>
+        dev.logs
       </div>
     </>
   );

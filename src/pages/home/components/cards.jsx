@@ -4,3 +4,5 @@ import "./cards.css";
 const cards = () => {
   return {};
 };
+
+export default cards;
