@@ -7,25 +7,13 @@ img {
   z-index: 0;
 }
 
-.outer {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-Tilt {
-  width: 20px;
-}
-
 .about-card {
   display: flex;
   align-items: center;
   justify-content: left;
   color: seagreen;
   border-radius: 20px;
-  width: 70%;
+  width: 140vh;
   margin: 20px;
   height: 80vh;
   background: radial-gradient(
@@ -36,6 +24,7 @@ Tilt {
   font-size: 20px;
   font-family: "Varela", sans-serif;
   z-index: -1;
+  margin: 70px;
 }
 
 p {
@@ -44,6 +33,7 @@ p {
   z-index: 0;
   color: #46a7f6;
 }
+
 .photo {
   width: inherit;
   height: inherit;
