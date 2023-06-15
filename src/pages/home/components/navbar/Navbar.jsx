@@ -3,8 +3,8 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
+    //TODO : add navigation and scrollability
     <>
-      //TODO : add navigation and scrollability
       <div className="nav">
         <div className="topleft">
           {"{"}..{"}"}dev.logs
