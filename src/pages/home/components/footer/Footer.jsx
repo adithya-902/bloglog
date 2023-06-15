@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      //TODO: Add icons for the contacts and add more stuff
+      //TODO: Add icons for the contacts and add more stuff in-general
       <div className="footer-container">
         <ul className="footer-list">
           <li className="list-items">
